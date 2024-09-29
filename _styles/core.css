@@ -1,0 +1,119 @@
+/*-- VARIABLES --*/
+/*-- FONT STUFF --*/
+@font-face {
+  font-family: Gadugi;
+  src: url(/_assets/fonts/gadugi.ttf);
+}
+@font-face {
+  font-family: Gadugi;
+  src: url(/_assets/fonts/gadugi-bold.ttf);
+  font-weight: bold;
+}
+* * {
+  font-family: Gadugi;
+}
+
+/*-- UNIVERSAL STYLES --*/
+body {
+  margin: 0;
+  background-color: #4e598c;
+}
+
+#container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/*-- NAVBAR STYLES --*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.grow {
+  transition: all 0.1s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.25);
+}
+
+#nav-logo {
+  float: left;
+}
+
+#nav-logo a {
+  padding: 8px 21px 0px 21px;
+}
+
+#nav-logo img {
+  height: 32px;
+}
+
+/*-- TITLE STYLES --*/
+h1 {
+  text-align: center;
+  background-color: #657153;
+  padding: 32px;
+  margin: 0;
+  font-size: 3em;
+}
+
+/*-- MAIN STYLES --*/
+main {
+  background-color: #111111;
+  padding: 16px;
+}
+
+header h1, main h2, main h3, main h4, main p {
+  color: #ffffff;
+}
+
+/*-- FOOTER STYLES --*/
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 32px;
+}
+
+#foot-logo img {
+  height: 64px;
+  margin: 20px;
+}
+
+footer td {
+  padding: 8px;
+}
+
+footer table {
+  margin: auto;
+}
+
+footer table img {
+  height: 32px;
+}
+
+/*-- BLOG STYLES --*/
+li {
+  color: white;
+}
+
+li a {
+  color: #4e598c;
+}
